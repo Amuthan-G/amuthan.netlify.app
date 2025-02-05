@@ -1,0 +1,81 @@
+html{
+     .container
+     {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 200px 20px 80px 80px 80px 80px;
+        }
+           
+           .title1{
+            grid-area:1/1/1/5;
+            background-color: blue;
+            color:antiquewhite;
+            font-size: large;
+            padding-left: 5px;
+            padding-top: 30px;
+           }
+           .titleImg{
+            grid-area:1/5/1/7;
+            background-color: blue;
+            padding-left: 40%;
+            padding-top: 50px;
+           }
+           .new_size{
+           size:0ch;
+           }
+           .info{
+            grid-area:2/1/2/7;
+            background-color: chartreuse;
+            font-size: large;
+            text-align: center;
+           }
+           .subject1{
+            grid-area:3/1/3/4;
+               }
+            .subject2{
+              grid-area:3/4/3/7;
+              
+              }
+              .subject3{
+                grid-area:4/1/4/4;
+               
+                }
+                .subject4{
+                  grid-area:4/4/4/7;
+                 
+                  }
+                  .subject5{
+                    grid-area:5/1/5/4;
+                   
+                    }
+                    .subject6{
+                      grid-area:5/4/5/7;
+                    
+                      }
+                      .subjects{
+                        background-color:blue;
+                        font-size: large;
+                        padding-top: 10px;
+                      }
+
+                            
+                  
+              .footer{
+                text-align: center;
+                grid-area: 6/1/6/7;
+                background-color: pink;
+                padding-top: 30px;
+              }
+
+              .subjects:hover{
+                background-color: rgb(226, 43, 43);
+                color: brown;
+                 }
+
+                 .changeColor{
+                  background-color: aqua;
+                  color: brown;
+                 }
+
+                      
+            }
